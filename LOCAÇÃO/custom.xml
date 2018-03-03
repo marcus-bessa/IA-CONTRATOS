@@ -6,25 +6,25 @@
     | CONTRATO
     +-->
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="38" name="CONTRATO_NUM">
-<vt:lpwstr>#1801784</vt:lpwstr>
+<vt:lpwstr>#9999999</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="32" name="DATA_CONTRATO">
-<vt:filetime>2018-01-18T02:00:00Z</vt:filetime>
+<vt:filetime>2018-01-01T02:00:00Z</vt:filetime>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="37" name="IS_OPCAO_COMPRA">
 <vt:lpwstr>NÃO</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="71" name="CONTRATO_FINALIDADE">
-<vt:lpwstr>USO NÃO RESIDENCIAL</vt:lpwstr>
+<vt:lpwstr>ESCRITÓRIO COMERCIAL/ADMINISTRATIVO</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="72" name="CONTRATO_PRAZO_INI">
-<vt:filetime>2018-02-01T02:00:00Z</vt:filetime>
+<vt:filetime>2018-01-01T02:00:00Z</vt:filetime>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="73" name="CONTRATO_PRAZO_FIM">
-<vt:filetime>2021-01-31T02:00:00Z</vt:filetime>
+<vt:filetime>2020--12-31T02:00:00Z</vt:filetime>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="74" name="CONTRATO_VALOR_ALUGUEL">
-<vt:lpwstr>6.042,35</vt:lpwstr>
+<vt:lpwstr>99.999,99</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="75" name="CONTRATO_DIA_PAGAMENTO">
 <vt:lpwstr>15</vt:lpwstr>
@@ -85,47 +85,58 @@
     | LOCATARIA
     +-->
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="8" name="LOCATARIA">
-<vt:lpwstr>INNOVAX CORRETORA DE SEGUROS</vt:lpwstr>
+<vt:lpwstr>RAZÃO SOCIAL DA LOCATÁRIA</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="39" name="LOCATARIA_CNPJ">
-<vt:lpwstr>11.725.119/0001-48</vt:lpwstr>
+<vt:lpwstr>99.999.999/0001-99</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="9" name="LOCATARIA_ENDERECO">
-<vt:lpwstr>Rua Machado de Assis, 515, sala 01, Centro, Osasco/SP, 06018-030</vt:lpwstr>
+<!-- ENDEREÇO: LOGRADOURO, NÚMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE/UF -->
+<vt:lpwstr>LOGRADOURO, NÚMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE/UF</vt:lpwstr>
 </property>
 
 <!--+
     | LOCATARIA - REPRESENTANTE 1
     +-->
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="10" name="LOCATARIA_REP1_NOME">
-<vt:lpwstr>David Jesus de Oliveira</vt:lpwstr>
+<vt:lpwstr>NOME COMPLETO DO REPRESENTANTE 1 DA LOCATÁRIA</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="11" name="LOCATARIA_REP1_RG">
-<vt:lpwstr>26.407.139 SSP/SP</vt:lpwstr>
+<vt:lpwstr>99.999.999-9 EMISSOR</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="12" name="LOCATARIA_REP1_CPF">
-<vt:lpwstr>199.917.908-02</vt:lpwstr>
+<vt:lpwstr>999.999.999-99</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="13" name="LOCATARIA_REP1_EMAIL">
-<vt:lpwstr>david@innovaxseguros.com.br</vt:lpwstr>
+<vt:lpwstr>EMAIL DO REPRESENTANTE 1</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="40" name="LOCATARIA_REP1_NACIONALIDADE">
-<vt:lpwstr>brasileiro</vt:lpwstr>
+<!-- brasileiro(a) -->
+<vt:lpwstr>NACIONALIDADE</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="43" name="LOCATARIA_REP1_PROFISSAO">
-<vt:lpwstr>empresário</vt:lpwstr>
+<!-- empresário(a), advogado(a), ... -->
+<vt:lpwstr>PROFISSÃO</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="46" name="LOCATARIA_REP1_ESTCIVIL">
-<vt:lpwstr>divorciado</vt:lpwstr>
+<!-- 
+	neste ato declara-se solteiro(a) 
+	casado(a) na comunhão parcial de bens
+	casado(a) na comunhão total de bens
+	divorciado(a)
+	viúvo(a)
+-->
+<vt:lpwstr>ESTADO CIVIL</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="49" name="LOCATARIA_REP1_ENDERECO">
-<vt:lpwstr>Rua Machado de Assis, 515, sala 01, Centro, Osasco/SP, 06018-030</vt:lpwstr>
+<!-- ENDEREÇO: LOGRADOURO, NÚMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE/UF -->
+<vt:lpwstr>LOGRADOURO, NÚMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE/UF</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="52" name="LOCATARIA_REP1_TELCOMERCIAL">
-<vt:lpwstr>(11) 4554-9541</vt:lpwstr>
+<vt:lpwstr>(99) 9999-9999</vt:lpwstr>
 </property>
 <property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" pid="55" name="LOCATARIA_REP1_TELCELULAR">
-<vt:lpwstr>(11) 97186-0141</vt:lpwstr>
+<vt:lpwstr>(99) 99999-9999</vt:lpwstr>
 </property>
 
 <!--+
